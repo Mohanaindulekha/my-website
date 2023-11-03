@@ -1,0 +1,109 @@
+/* Navbar styles */
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.navbartext {
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.btn-navbar {
+    background: transparent;
+    border: none;
+    color: #fff;
+}
+
+#navbarNav ul.navbar-nav {
+    text-align: center;
+}
+
+#navbarNav ul.navbar-nav li {
+    margin: 10px 0;
+}
+
+/* Carousel styles */
+.carousel-caption h3 {
+    color: #fff;
+    font-size: 32px;
+    text-shadow: 2px 2px 4px #000;
+}
+
+/* Search bar styles */
+.navbar.search {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.navbarsearchtext {
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.form-control {
+    border: none;
+    border-radius: 0;
+}
+
+.btn-dark {
+    background-color: #333;
+    border: none;
+    color: #fff;
+}
+
+/* About section styles */
+.textabout {
+    text-align: center;
+    padding: 50px 0;
+}
+
+/* Meet Authors section styles */
+.text-center.bg-dark {
+    background-color: #333;
+    color: #fff;
+    padding: 30px 0;
+}
+
+/* Services section styles */
+#services {
+    background-color: #f4f4f4;
+    padding: 50px 0;
+}
+
+.card i {
+    color: #4CAF50;
+    font-size: 5em;
+}
+
+/* Contact section styles */
+#contact {
+    padding: 50px 0;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Media queries for responsive design */
+@media (max-width: 768px) {
+    .carousel-caption h3 {
+        font-size: 24px;
+    }
+
+    .navbarsearchtext, .navbartext {
+        font-size: 20px;
+    }
+
+    .card i {
+        font-size: 4em;
+    }
+}
